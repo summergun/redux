@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
+import LyricsContainer from '../containers/LyricsContainer';
 
 const Sidebar = (props) => {
 
@@ -39,6 +40,7 @@ const Sidebar = (props) => {
           })
         }
       </ul>
+      <LyricsContainer />
     </sidebar>
   );
 }
